@@ -3,8 +3,8 @@ body {
 }
 #panel3 {
     background: transparent url(panel2.jpg) no-repeat top left;
-    height: 305;
-    width: 903;
+    height: 305px;
+    width: 903px;
 }
 #panel5 {
     background: transparent url(panel5.jpg) no-repeat top left;
@@ -23,7 +23,7 @@ body {
 #bubble1 {
     position: absolute;
     top: 19px;
-    left: 37px;
+    left: 25px;
     font-size: 16px;
 }
 #bubble2 {
@@ -47,15 +47,90 @@ body {
     font-size: 15px;
 }
 #bubble6 {
-    top: 145px;
-    left: 750px;
+    top: 138px;
+    left: 729px;
     font-size: 15px;
 }
 #bubble7 {
-    top: 275px;
-    left: 850px;
+    top: 280px;
+    left: 829px;
     font-size: 15px;
 }
-#row {
-
+#bubble8 {
+    top: 488px;
+    left: 25px;
+    font-size: 15px
+}
+#bubble9 {
+    top: 488px;
+    left: 253px;
+    font-size: 15px
+}
+#bubble10 {
+    top: 488px;
+    left: 693px;
+    font-size: 15px
+}
+#bubble11 {
+    top: 722px;
+    left: 234px;
+    font-size: 15px;
+}
+#bubble12 {
+    top: 786px;
+    left: 23px;
+    font-size: 15px;
+}
+#bubble13 {
+    top: 1242px;
+    left: 19px;
+    font-size: 15px;
+}
+#bubble14 {
+    top: 1305px;
+    left: 233px;
+    font-size: 15px;
+}
+#bubble15 {
+    top: 786px;
+    left: 378px;
+    font-size: 15px;
+}
+#bubble16 {
+    top: 790px;
+    left: 752px;
+    font-size: 15px;
+}
+#bubble17 {
+    top: 1181px;
+    left: 390px;
+    font-size: 15px;
+}
+#bubble18 {
+    top: 1266px;
+    left: 391px;
+    font-size: 15px;
+}
+#bubble19 {
+    top: 1282px;
+    left: 720px;
+    font-size: 17px;
+}
+.bump {
+    display: inline-block;
+}
+.bump5 {
+    margin-left: 5px;
+}
+.bump10 {
+    margin-left: 10px;
+}
+.bump15 {
+    margin-left: 15px;
+}
+.bump30 {
+    margin-left: 30px;
+}
+.bump35 {
+    margin-left: 35px;
 }
