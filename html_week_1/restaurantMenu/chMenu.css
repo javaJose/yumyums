@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+}
+header {
+    background-color: ghostwhite;
+}
+section {
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+#leftCol {
+    float: left;
+    width: 48%;
+}
+#rightCol {
+    float: right;
+    width: 48%;
+}
+#specials{
+    background-color: white;
+    font-size: 30px;
+}
+#lunch {
+    background-color: blue;
+
+}
+#apps{
+    background-color: greenyellow;
+
+}
+#soup {
+    background-color: coral;
+    width:50%;
+    margin: auto;
+
+}
+#chow {
+    background-color: floralwhite;
+
+}
+#lo {
+    background-color: honeydew;
+
+}
+#friedRice {
+    background-color: navajowhite;
+
+}
+#beef {
+    background-color: lightgreen;
+
+}
