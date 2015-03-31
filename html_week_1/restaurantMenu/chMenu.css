@@ -1,56 +1,157 @@
 body {
-    background-color: red;
+    background-color: #ffffff;
+    align: center;
+    width: 95%;
+    padding: 1%,1%,1%,1%;
+    border: solid;
+    border-color: silver;
 }
 header {
     background-color: ghostwhite;
+    border: solid;
+    border-color: red;
+    border-radius: 20px;
+    width: 95%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
-section {
+#specials{
+    background-color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#boxroundColumns {
+    width:95%;
+    height: 1400px;
     background-color: white;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-
+    border: none;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 #leftCol {
     float: left;
     width: 48%;
+    padding: 5px;
 }
+    #lunch {
+        float: left;
+        /*background-color: purple;*/
+        width: 100%;
+        border: clear;
+        border-radius: 20px;
+    }
+    #apps{
+        float: left;
+        width: 100%;
+        background-color: greenyellow;
+        }
 #rightCol {
     float: right;
     width: 48%;
-}
-#specials{
-    background-color: white;
-    font-size: 30px;
-}
-#lunch {
-    background-color: blue;
+    padding: 5px;
+    }
+    #soup {
+        float: right;
+        width: 100%;
+    }
+     #chow {
+        float: right;
+        width: 100%;
 
-}
-#apps{
-    background-color: greenyellow;
+    }
 
-}
-#soup {
-    background-color: coral;
-    width:50%;
-    margin: auto;
+    #lo {
+        float: right;
+        width: 100%;
+    }
 
-}
-#chow {
-    background-color: floralwhite;
+    #friedRice {
+        float: right;
+        width: 100%;
+    }
 
+    #beef {
+        float: right;
+        width: 100%;
+    }
+div.dotted > div:after {
+    content: "";
+    display: block;
+    clear: both;
 }
-#lo {
-    background-color: honeydew;
 
+div.dotted > div > div {
+    position: relative;
+    float: left;
+    width: 33.333333%;
 }
-#friedRice {
-    background-color: navajowhite;
 
+div.dotted > div > div:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px dotted #000;
+    z-index: -1;
 }
-#beef {
-    background-color: lightgreen;
 
+div.dotted > div > div:last-child:before {
+    display: none;
 }
+
+div.dotted > div > div > span {
+    padding: 0 5px;
+    display: none;
+    background-color: #fff;
+}
+div.dotted > div {
+     position: relative;
+ }
+
+div.dotted > div:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px dotted #000;
+    z-index: -1;
+}
+
+div.dotted > div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.dotted > div > div {
+    float: left;
+    width: 18%;
+}
+
+div.dotted > div > div + div {
+    text-align: right;
+    text-line-through-color: white;
+}
+

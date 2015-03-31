@@ -1,0 +1,7 @@
+diff a/html_week_1/restaurantMenu/index.html b/html_week_1/restaurantMenu/index.html	(rejected hunks)
+@@ -0,4 +0,5 @@
+ <!DOCTYPE html>
++<html xmlns="http://www.w3.org/1999/html">
+ <head>
+     <title>Yum Yums</title>
+     <link rel="stylesheet" href="chMenu.css">
