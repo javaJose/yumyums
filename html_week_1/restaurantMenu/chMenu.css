@@ -1,16 +1,20 @@
 body {
+    font-family: Tahoma;
+    color: green;
     background-color: #ffffff;
     align: center;
     width: 95%;
     padding: 1%,1%,1%,1%;
     border: solid;
     border-color: silver;
+
 }
 header {
+    align: center;
     background-color: ghostwhite;
     border: solid;
     border-color: red;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 95%;
     padding-top: 10px;
     padding-right: 10px;
@@ -32,7 +36,7 @@ header {
 #boxroundColumns {
     width:95%;
     height: 1400px;
-    background-color: white;
+    background-color: blue;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -46,12 +50,12 @@ header {
 }
 #leftCol {
     float: left;
+    background-color: purple;
     width: 48%;
     padding: 5px;
 }
     #lunch {
         float: left;
-        /*background-color: purple;*/
         width: 100%;
         border: clear;
         border-radius: 20px;
@@ -154,4 +158,6 @@ div.dotted > div > div + div {
     text-align: right;
     text-line-through-color: white;
 }
-
+#lunch {
+        background-color: #ffffff;
+}
